@@ -12,6 +12,7 @@ st.set_page_config(
 from modules.search import show_search_page
 from modules.walpaper import show_wallpaper_page
 from modules.search_movie import show_video_search_page
+from modules.search_news import show_news_page
 from modules.movies import show_movies_page
 from modules.series import show_series_page
 
@@ -48,7 +49,7 @@ with st.sidebar:
     st.title("Navigation")
     page = st.radio(
         "Go to",
-        ["Movies", "Series","Search", "Wallpaper","Video Search"],
+        ["Movies", "Series","Search", "Wallpaper","Video Search","News"],
         key="navigation"
     )
 
@@ -62,4 +63,6 @@ elif page == "Wallpaper":
     show_wallpaper_page()
 elif page == "Video Search":
     show_video_search_page()
+elif page == "News":
+    show_news_page()
 
