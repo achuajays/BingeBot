@@ -1,4 +1,5 @@
 import streamlit as st
+from search import show_search_page
 from movies import show_movies_page
 from series import show_series_page
 
@@ -42,7 +43,7 @@ with st.sidebar:
     st.title("Navigation")
     page = st.radio(
         "Go to",
-        ["Movies", "Series"],
+        ["Movies", "Series","Search"],
         key="navigation"
     )
 
@@ -50,3 +51,5 @@ if page == "Movies":
     show_movies_page()
 elif page == "Series":
     show_series_page()
+elif page == "Search":
+    show_search_page()
