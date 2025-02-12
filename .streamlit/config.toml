@@ -1,0 +1,15 @@
+[theme]
+# The dark teal from the palette
+primaryColor = "#1B2B31"
+
+# The turquoise color
+secondaryBackgroundColor = "#68A5A4"
+
+# The light gray color
+backgroundColor = "#E6E9EC"
+
+# The medium teal color
+textColor = "#2F4F4F"
+
+# The light turquoise
+font = "sans serif"
