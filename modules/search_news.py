@@ -69,8 +69,7 @@ def show_news_page():
             if news_articles:
                 st.success(f"✅ Found {len(news_articles)} articles! Verifying with AI...")
 
-                with st.spinner("AI verifying relevance..."):
-                    verified_news = verify_news_with_ai(query, news_articles)
+
 
                 st.subheader("🔍 Verified News Results")
 
