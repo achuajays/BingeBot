@@ -1,7 +1,3 @@
-Here’s a **detailed and well-structured `README.md`** for **BingeBot**, explaining all its functionalities from **movie search to AI-verified news**. 🚀  
-
----
-
 ### **📢 BingeBot - Your Ultimate Entertainment & News Companion!**  
 
 Welcome to **BingeBot**, a powerful **AI-enhanced** search assistant that helps you **find, explore, and verify** content across different categories, including **Movies, Series, Wallpapers, Videos, and News**. 🎬📰✨  
