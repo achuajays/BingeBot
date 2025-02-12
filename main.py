@@ -9,10 +9,10 @@ st.set_page_config(
 )
 
 
-from search import show_search_page
-from walpaper import show_wallpaper_page
-from movies import show_movies_page
-from series import show_series_page
+from modules.search import show_search_page
+from modules.walpaper import show_wallpaper_page
+from modules.movies import show_movies_page
+from modules.series import show_series_page
 
 # Custom CSS
 st.markdown("""
