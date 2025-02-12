@@ -1,7 +1,5 @@
 import streamlit as st
-from search import show_search_page
-from movies import show_movies_page
-from series import show_series_page
+
 
 # Configure the page with custom styling
 st.set_page_config(
@@ -9,6 +7,12 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded"
 )
+
+
+from search import show_search_page
+from walpaper import show_wallpaper_page
+from movies import show_movies_page
+from series import show_series_page
 
 # Custom CSS
 st.markdown("""
@@ -43,7 +47,7 @@ with st.sidebar:
     st.title("Navigation")
     page = st.radio(
         "Go to",
-        ["Movies", "Series","Search"],
+        ["Movies", "Series","Search", "Wallpaper"],
         key="navigation"
     )
 
@@ -53,3 +57,6 @@ elif page == "Series":
     show_series_page()
 elif page == "Search":
     show_search_page()
+elif page == "Wallpaper":
+    show_wallpaper_page()
+
