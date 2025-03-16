@@ -5,7 +5,7 @@ Welcome to **BingeBot**, a powerful **AI-enhanced** search assistant that helps 
 Whether you're looking for the **latest movie details, high-quality wallpapers, trending videos, or AI-verified news**, BingeBot has got you covered!  
  
 ---
-  
+
 ## **🚀 Features**
 ### 🔎 **1. Movie & Series Search**  
 - Enter a **movie or series title** and instantly **fetch IMDb links**.  
