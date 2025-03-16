@@ -3,7 +3,7 @@
 Welcome to **BingeBot**, a powerful **AI-enhanced** search assistant that helps you **find, explore, and verify** content across different categories, including **Movies, Series, Wallpapers, Videos, and News**. 🎬📰✨  
 
 Whether you're looking for the **latest movie details, high-quality wallpapers, trending videos, or AI-verified news**, BingeBot has got you covered!  
-
+ 
 ---
 
 ## **🚀 Features**
